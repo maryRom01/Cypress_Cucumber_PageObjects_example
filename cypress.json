@@ -1,0 +1,7 @@
+{
+    "ignoreTestFiles": "*.js",
+    "testFiles": "**/*.feature",
+    "modifyObstructiveCode": true,
+    "video": false,
+    "screenshotOnRunFailure": false
+}

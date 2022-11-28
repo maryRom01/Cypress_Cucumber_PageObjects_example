@@ -1,0 +1,33 @@
+{
+  "name": "cypress_cucumber_pageobjects",
+  "version": "1.0.0",
+  "description": "Test Framework example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryRom01/Cypress_Cucumber_PageObjects_example.git"
+  },
+  "author": "Maryna Romanets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryRom01/Cypress_Cucumber_PageObjects_example/issues"
+  },
+  "homepage": "https://github.com/maryRom01/Cypress_Cucumber_PageObjects_example#readme",
+  "devDependencies": {
+    "cucumber": "^6.0.7",
+    "cypress": "^8.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
