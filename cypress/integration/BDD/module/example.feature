@@ -13,3 +13,4 @@ Scenario Outline: Click on link
     Examples:
         | link    | 
         | submit  |  
+        | type    |

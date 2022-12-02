@@ -4,7 +4,8 @@
   "description": "Test Framework example",
   "main": "index.js",
   "scripts": {
-    "cy:test": "cypress run"
+    "cy:test": "cypress run",
+    "cy:smoke": "npx cypress run --env TAGS=\"@SMOKE\""
   },
   "repository": {
     "type": "git",
