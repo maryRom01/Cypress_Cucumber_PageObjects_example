@@ -1,5 +1,4 @@
 {
-    "baseUrl": "https://example.cypress.io/",
     "ignoreTestFiles": "*.js",
     "testFiles": "**/*.feature",
     "modifyObstructiveCode": true,

@@ -1,7 +1,7 @@
 import { Given, And, When, Then } from "cypress-cucumber-preprocessor/steps";
 import MainPage from '../../../support/pageObjects/MainPage'
 
-const baseUrl = Cypress.config('baseUrl')
+const baseUrl = Cypress.env('mainUrl')
 const mainPage = new MainPage()
 
 Given('Main page {string} is opened', (url) => {
